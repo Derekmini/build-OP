@@ -1,0 +1,11 @@
+
+config server 'ssrs'
+	option timeout '300'
+	option fast_open 'true'
+	option encrypt_method 'rc4-md5'
+	option protocol 'auth_sha1_v4'
+	option obfs 'http_simple'
+	option enable '1'
+	option server_port '11005'
+	option password 'password1234'
+
